@@ -1,0 +1,8 @@
+<admin>
+    <email>Brendonr@bu.edu</email>
+    <password>password</password>
+</admin>
+<admin>
+    <email>cs602_user</email>
+    <password>cs602_secret</email> 
+</admin?>

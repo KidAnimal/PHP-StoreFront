@@ -1,0 +1,87 @@
+/*Header*/
+#title 
+{ 
+  font-size:30px;
+  text-align: center;
+}
+#navBar 
+{
+  text-align:center;
+}
+#navBar a 
+{ 
+  margin-left:30px; 
+  padding:10px;
+  text-decoration-style: none;
+  -moz-text-decoration-style: none;
+}
+/*Body*/
+
+.gallery_list 
+{
+  list-style-type: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .gallery 
+  {
+    max-width: 300px;
+    padding:30px;
+    text-align:center;
+  }
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 300px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  /*--Product Manager--*/
+  .producthead
+  {
+    text-align:center;
+  }
+  .product_Table 
+  {
+    margin-left: auto;
+    margin-right:auto;
+  }
+ .formproduct 
+  {
+    text-align:center;
+    padding:10px;
+    margin-top:10px;
+  }
+ 
+
+  /*--Order Manager--*/
+
+.orderManage th
+{
+  margin-left:10px;
+  padding:10px;
+}
